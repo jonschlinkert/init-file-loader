@@ -14,11 +14,11 @@ module.exports = function fileLoader(file, renameKey) {
     throw new TypeError('init-file-loader expects file to be an object.');
   }
 
-  if (!file.hasOwnProperty('path')) {
+  if (typeof file.path !== 'string') {
     throw new TypeError('init-file-loader expects `file` to have a `path` property.');
   }
 
-  if (!file.hasOwnProperty('contents')) {
+  if (Buffer.isBuffer(file.contents) !== true && typeof file.contents !== 'string') {
     throw new TypeError('init-file-loader expects `file` to have a `contents` property.');
   }
 
