@@ -1,0 +1,37 @@
+{
+  "name": "init-file-loader",
+  "description": "Loader for Template, for loading files onto a custom view collection inside a vinyl plugin.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/init-file-loader",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/init-file-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/init-file-loader/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/init-file-loader/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
