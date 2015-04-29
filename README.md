@@ -18,7 +18,7 @@ Register `init-file-loader` as a custom loader:
 app.loader('file', [require('init-file-loader')]);
 ```
 
-`app` is used as a placeholder for [Verb], [Assemble], [Generate], or any application based on [Template].
+`app` is used as a placeholder for [Verb], [Assemble], [Generate](https://github.com/generate/generate), or any application based on [Template].
 
 **Use the loader**
 
